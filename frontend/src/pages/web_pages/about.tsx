@@ -24,7 +24,7 @@ import TestimonialsSection from '../../components/WebPageComponents/Testimonials
 export default function WebSite() {
   const cardsStyle = useAppSelector((state) => state.style.cardsStyle);
   const bgColor = useAppSelector((state) => state.style.bgLayoutColor);
-  const projectName = 'test23';
+  const projectName = 'test233';
 
   useEffect(() => {
     const darkElement = document.querySelector('body .dark');
@@ -122,10 +122,10 @@ export default function WebSite() {
           content={`Learn more about ${projectName}, our mission, and how we are transforming the legal industry with our innovative CRM solutions.`}
         />
       </Head>
-      <WebSiteHeader projectName={'test23'} pages={pages} />
+      <WebSiteHeader projectName={'test233'} pages={pages} />
       <main className={`flex-grow    bg-white  rounded-none  `}>
         <HeroSection
-          projectName={'test23'}
+          projectName={'test233'}
           image={['Team brainstorming in modern office']}
           mainText={`Discover the Vision Behind ${projectName}`}
           subTitle={`Explore our journey and commitment to revolutionizing the legal industry. At ${projectName}, we strive to empower law firms with cutting-edge CRM solutions.`}
@@ -134,7 +134,7 @@ export default function WebSite() {
         />
 
         <AboutUsSection
-          projectName={'test23'}
+          projectName={'test233'}
           image={['Diverse team collaborating effectively']}
           mainText={`Our Mission at ${projectName}`}
           subTitle={`At ${projectName}, we are dedicated to transforming the legal industry with innovative CRM solutions. Our team is committed to enhancing efficiency and collaboration for law firms worldwide.`}
@@ -143,7 +143,7 @@ export default function WebSite() {
         />
 
         <FeaturesSection
-          projectName={'test23'}
+          projectName={'test233'}
           image={['Features dashboard with icons']}
           withBg={1}
           features={features_points}
@@ -153,13 +153,13 @@ export default function WebSite() {
         />
 
         <TestimonialsSection
-          projectName={'test23'}
+          projectName={'test233'}
           design={TestimonialsDesigns.HORIZONTAL_CAROUSEL_DIVERSITY || ''}
           testimonials={testimonials}
           mainText={`Hear from Our Satisfied Clients `}
         />
       </main>
-      <WebSiteFooter projectName={'test23'} pages={pages} />
+      <WebSiteFooter projectName={'test233'} pages={pages} />
     </div>
   );
 }
