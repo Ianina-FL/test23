@@ -50,7 +50,7 @@ export default function Login() {
     remember: true,
   });
 
-  const title = 'test233';
+  const title = 'test23';
 
   // Fetch Pexels image/video
   useEffect(() => {

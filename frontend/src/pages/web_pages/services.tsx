@@ -21,7 +21,7 @@ import TestimonialsSection from '../../components/WebPageComponents/Testimonials
 export default function WebSite() {
   const cardsStyle = useAppSelector((state) => state.style.cardsStyle);
   const bgColor = useAppSelector((state) => state.style.bgLayoutColor);
-  const projectName = 'test233';
+  const projectName = 'test23';
 
   useEffect(() => {
     const darkElement = document.querySelector('body .dark');
@@ -137,10 +137,10 @@ export default function WebSite() {
           content={`Explore the range of services offered by ${projectName} to enhance your law firm's operations. Discover how our innovative solutions can streamline your processes and improve efficiency.`}
         />
       </Head>
-      <WebSiteHeader projectName={'test233'} pages={pages} />
+      <WebSiteHeader projectName={'test23'} pages={pages} />
       <main className={`flex-grow    bg-white  rounded-none  `}>
         <HeroSection
-          projectName={'test233'}
+          projectName={'test23'}
           image={['Law firm team in discussion']}
           mainText={`Transform Your Legal Services with ${projectName}`}
           subTitle={`Discover how ${projectName} can revolutionize your law firm's operations. Our tailored services are designed to enhance efficiency, streamline processes, and drive success.`}
@@ -149,7 +149,7 @@ export default function WebSite() {
         />
 
         <FeaturesSection
-          projectName={'test233'}
+          projectName={'test23'}
           image={['Features displayed on a screen']}
           withBg={0}
           features={features_points}
@@ -159,13 +159,13 @@ export default function WebSite() {
         />
 
         <TestimonialsSection
-          projectName={'test233'}
+          projectName={'test23'}
           design={TestimonialsDesigns.MULTI_CARD_DISPLAY || ''}
           testimonials={testimonials}
           mainText={`What Our Clients Say About ${projectName} `}
         />
       </main>
-      <WebSiteFooter projectName={'test233'} pages={pages} />
+      <WebSiteFooter projectName={'test23'} pages={pages} />
     </div>
   );
 }
