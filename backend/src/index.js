@@ -49,9 +49,9 @@ const options = {
     openapi: '3.0.0',
     info: {
       version: '1.0.0',
-      title: 'test23',
+      title: 'test233',
       description:
-        'test23 Online REST API for Testing and Prototyping application. You can perform all major operations with your entities - create, delete and etc.',
+        'test233 Online REST API for Testing and Prototyping application. You can perform all major operations with your entities - create, delete and etc.',
     },
     servers: [
       {
